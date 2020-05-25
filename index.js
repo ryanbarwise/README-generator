@@ -41,9 +41,9 @@ const questions = [
   },
 
   {
-      type: "input",
-      name: 'URL',
-      message: "What is the URL to your project"
+    type: "input",
+    name: "URL",
+    message: "What is the URL to your project",
   },
 
   {
@@ -59,26 +59,35 @@ const questions = [
   },
 
   {
-      type: "input",
-      name: "license",
-      message: "What kind of license should your project have?"
+    type: "input",
+    name: "license",
+    message: "What kind of license should your project have?",
+    default: "MIT"
   },
 
   {
-      type: "input",
-      name: "dependencies",
-      message: "What kind command should be run to install dependencies?"
+    type: "input",
+    name: "dependencies",
+    message: "What kind command should be run to install dependencies?",
+    default: "npm i",
   },
   {
-      type: "input",
-      name: "usingRepo",
-      message: "What does the user need to know about using the repo?"
+    type: "input",
+    name: "usingRepo",
+    message: "What does the user need to know about using the repo?",
   },
 
-  {   type: "input",
-      name: "contributing",
-      message: "What does the user need to know about contibuting to the repo"
+  {
+    type: "input",
+    name: "contributions",
+    message: "What does the user need to know about contibuting to the repo",
+  },
 
+  {
+    type: "input",
+    name: "tests",
+    message: "What is the command for running tests",
+    default: "npm test"
   }
 ];
 

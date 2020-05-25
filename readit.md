@@ -1,28 +1,36 @@
 
   
-  # hi
+  # weather app
 
   ## Description
-  ## hi
+  ## weather app
 
   ## Table of Contents
   1. [License](#license)
   2. [Installing Dependencies](#dependencies)
-  3. [Using the Repo](#usingRepo)
-  4. [Contributions](#contributing)
+  3. [Tests](#tests)
+  3. [Repo](#usingRepo)
+  4. [Contributions](#contributions)
 
+  <a name = "license"></a>
+  ## License
+     MIT
 
-  ## Type of License <a name="licesne"></a>
-  ### hi
+  <a name = "dependencies"></a>
+  ## Dependencies 
+     npm i
 
-  ## Dependencies <a name ="dependencies"></a>
-  ### hi
+  <a name = "tests"></a>
+  ## Tests
+   $ npm test
 
-  ## Using the Repo <a name="usingRepo"></a>
-  ### hi
+  <a name = "usingRepo"></a>
+  ## Repo
+  nothing
 
-  ## Contributions <a name = "contributions"></a>
-  ### undefined
+  <a name = "contributions"></a>
+  ## Contributions 
+   do it
   
     
   

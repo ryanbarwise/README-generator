@@ -1,34 +1,41 @@
-
 function generateMarkdown(data) {
-    return `
+  return `
   
   # ${data.title}
 
   ## Description
-  ## ${data.description}
+  #### ${data.description}
 
   ## Table of Contents
   1. [License](#license)
   2. [Installing Dependencies](#dependencies)
-  3. [Using the Repo](#usingRepo)
-  4. [Contributions](#contributing)
+  3. [Tests](#tests)
+  3. [Repo](#usingRepo)
+  4. [Contributions](#contributions)
 
+  <a name = "license"></a>
+  ## License
+     ${data.license}
 
-  ## Type of License <a name="licesne"></a>
-  ### ${data.license}
+  <a name = "dependencies"></a>
+  ## Dependencies 
+     ${data.dependencies}
 
-  ## Dependencies <a name ="dependencies"></a>
-  ### ${data.dependencies}
+  <a name = "tests"></a>
+  ## Tests
+   $ ${data.tests}
 
-  ## Using the Repo <a name="usingRepo"></a>
-  ### ${data.usingRepo}
+  <a name = "usingRepo"></a>
+  ## Repo
+  ${data.usingRepo}
 
-  ## Contributions <a name = "contributions"></a>
-  ### ${data.contributions}
+  <a name = "contributions"></a>
+  ## Contributions 
+   ${data.contributions}
   
     
   
   `;
-  }
-  
-  module.exports = generateMarkdown;
+}
+
+module.exports = generateMarkdown;
