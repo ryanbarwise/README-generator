@@ -1,42 +1,40 @@
 
   
-  # l
+  # weather-API
   
-  [![GitHub license](https://img.shields.io/github/last-commit/ryanbarwise/https://github.com/ryanbarwise/weather-API)]
+  [![GitHub license](https://img.shields.io/github/last-commit/ryanbarwise/weather-API)](https://github.com/ryanbarwise/weather-API)
    
-  
 
-  
 
   ## Description
-  #### l
+  #### 
 
   ## Table of Contents
   1. [License](#license)
   2. [Installing Dependencies](#dependencies)
   3. [Tests](#tests)
-  3. [Repo](#usingRepo)
+  3. [Repo](#repo)
   4. [Contributions](#contributions)
 
   <a name = "license"></a>
-  ## License
-     l
+  ## License Information
+     MIT
 
   <a name = "dependencies"></a>
-  ## Dependencies 
-     d
+  ## Dependencies
+     npm i
 
   <a name = "tests"></a>
   ## Tests
-   $ d
+   $ npm test
 
-  <a name = "usingRepo"></a>
+  <a name = "repo"></a>
   ## Repo
-  undefined
+  
 
   <a name = "contributions"></a>
   ## Contributions 
-   d
+   
   
     
   

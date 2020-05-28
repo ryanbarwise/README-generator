@@ -3,11 +3,9 @@ function generateMarkdown(data) {
   
   # ${data.title}
   
-  [![GitHub license](https://img.shields.io/github/last-commit/${data.username}/${data.title})]
- 
-  
+  [![GitHub license](https://img.shields.io/github/last-commit/${data.username}/${data.title})](https://github.com/${data.username}/${data.title})
+   
 
-  
 
   ## Description
   #### ${data.description}
@@ -16,24 +14,24 @@ function generateMarkdown(data) {
   1. [License](#license)
   2. [Installing Dependencies](#dependencies)
   3. [Tests](#tests)
-  3. [Repo](#usingRepo)
+  3. [Repo](#repo)
   4. [Contributions](#contributions)
 
   <a name = "license"></a>
-  ## License
+  ## License Information
      ${data.license}
 
   <a name = "dependencies"></a>
-  ## Dependencies 
+  ## Dependencies
      ${data.dependencies}
 
   <a name = "tests"></a>
   ## Tests
    $ ${data.tests}
 
-  <a name = "usingRepo"></a>
+  <a name = "repo"></a>
   ## Repo
-  ${data.usingRepo}
+  ${data.repo}
 
   <a name = "contributions"></a>
   ## Contributions 

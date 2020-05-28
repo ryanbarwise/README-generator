@@ -42,7 +42,7 @@ const questions = [
 
   {
     type: "input",
-    name: "URL",
+    name: "urlInfo",
     message: "What is the URL to your project",
   },
 
