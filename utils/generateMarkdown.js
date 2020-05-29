@@ -41,6 +41,8 @@ function generateMarkdown(data) {
   <a name = "contact"></a>
   ## Contact
   <${data.contact}>
+
+  ![](README.gif)
   
 
   
