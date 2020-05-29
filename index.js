@@ -1,27 +1,4 @@
-// User GitHub profile picture
-// User GitHub email
 
-// -- Title
-// Description
-// Table of Contents
-// Installation
-// Usage
-// License
-// Contributing
-// Tests
-// Questions
-// The generated README includes 1 badge that's specific to the repository.
-
-// GIVEN the developer has a GitHub profile and a repository
-
-// WHEN prompted for the developer's GitHub username and repo specific information
-
-// THEN a README for the repo is generated
-/* 
-function echo(val){
-    console.log(val)
-}
-*/
 
 const inquirer = require("inquirer");
 const fs = require("fs");
@@ -36,14 +13,8 @@ const questions = [
 
   {
     type: "input",
-    name: "email",
-    message: "What is your email address?",
-  },
-
-  {
-    type: "input",
     name: "urlInfo",
-    message: "What is the URL to your project",
+    message: "What is the URL to your project?",
   },
 
   {
@@ -55,22 +26,36 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message: "Describe your project",
+    message: "Provide a brief description of your project.",
+  },
+
+  {
+    type: "input",
+    name: "contact",
+    message: "What is your email address that is associated with GitHub?",
   },
 
   {
     type: "input",
     name: "license",
-    message: "What kind of license should your project have?",
-    default: "MIT"
+    message: "What is the license for this projects?",
+    default: "MIT",
   },
 
   {
     type: "input",
     name: "dependencies",
-    message: "What kind command should be run to install dependencies?",
+    message: "What command should be run to install dependencies?",
     default: "npm i",
   },
+
+  {
+    type: "input",
+    name: "tests",
+    message: "What is the command for running tests",
+    default: "npm test",
+  },
+
   {
     type: "input",
     name: "repo",
@@ -80,15 +65,8 @@ const questions = [
   {
     type: "input",
     name: "contributions",
-    message: "What does the user need to know about contibuting to the repo",
+    message: "What does the user need to know about contibuting to the repo?",
   },
-
-  {
-    type: "input",
-    name: "tests",
-    message: "What is the command for running tests",
-    default: "npm test"
-  }
 ];
 
 function writeToFile(fileName, data) {
@@ -102,7 +80,7 @@ function init() {
   inquirer.prompt(questions).then((responses) => {
     // console.log(JSON.stringify(responses, '', 4))
     const markdown = generateMarkdown(responses);
-    writeToFile("readit.md", markdown);
+    writeToFile("readMe.md", markdown);
   });
 }
 

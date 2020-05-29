@@ -8,7 +8,7 @@ function generateMarkdown(data) {
 
 
   ## Description
-  #### ${data.description}
+ ${data.description}
 
   ## Table of Contents
   1. [License](#license)
@@ -16,6 +16,7 @@ function generateMarkdown(data) {
   3. [Tests](#tests)
   3. [Repo](#repo)
   4. [Contributions](#contributions)
+  5. [Contact](#contact)
 
   <a name = "license"></a>
   ## License Information
@@ -36,6 +37,12 @@ function generateMarkdown(data) {
   <a name = "contributions"></a>
   ## Contributions 
    ${data.contributions}
+
+  <a name = "contact"></a>
+  ## Contact
+  <${data.contact}>
+  
+
   
     
   
