@@ -7,7 +7,7 @@
 
 
   ## Description
- command line-application that dynamically generates a README.md from a user's input
+ Command line-application that dynamically generates a README.md from a user's input
 
   ## Table of Contents
   1. [License](#license)
@@ -31,7 +31,7 @@
 
   <a name = "repo"></a>
   ## Repo
-  view, clone, or fork at will.  I am happy to receive feedback.
+  view, clone or fork at your pleasure...I welcome feedback
 
   <a name = "contributions"></a>
   ## Contributions 
@@ -40,6 +40,8 @@
   <a name = "contact"></a>
   ## Contact
   <ryanbarwise@gmail.com>
+
+  ![](README.gif)
   
 
   
